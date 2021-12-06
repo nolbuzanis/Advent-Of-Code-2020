@@ -1,4 +1,4 @@
-const readTextFile = require('../readTextFile');
+const readTextFile = require('../../readTextFile');
 
 const expenseReportArray = readTextFile('puzzle1/list.txt');
 //Brute: Loop through each element, look at rest of array, break when both items equal 2020 - O(n^2) time, O(1) Space
